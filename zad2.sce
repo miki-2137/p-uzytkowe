@@ -1,0 +1,10 @@
+x=[1:1:5];
+f = log10(x+8)+log(x+2);
+g = (3*x^3+4*x)/(2*x^2+sin(x));
+plot(x,f, 'r');
+plot(x,g, 'b');
+xlabel("Oś X");
+ylabel("Oś Y");
+xgrid;
+title("Tytuł Wykresu");
+legend(['f(x) = log10(x+8)+log(x+2)';'g(x) = (3*x^3+4*x)/(2*x^2+sin(x))']);
